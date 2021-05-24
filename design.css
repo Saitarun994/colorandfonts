@@ -1,0 +1,117 @@
+@font-face {
+    font-family:"Nunito sans";
+    src: url("Fonts/NunitoSans-Regular.ttf"),
+    url("Fonts/NunitoSans-Italic.ttf"),
+    url("Fonts/NunitoSans-Bold.ttf");
+    }
+@font-face {
+        font-family:"Montserrat";
+        src: url("Fonts/Montserrat-Regular.ttf"),
+        url("fonts/Montserrat-Italic.ttf"),
+        url("fonts/Montserrat-Bold.ttf");
+        }
+@font-face {
+        font-family:"Source Code Pro";
+        src: url("Fonts/SourceCodePro-Regular.ttf"),
+        url("Fonts/SourceCodePro-Italic.ttf"),
+        url("fonts/SourceCodePro-Bold.ttf");
+            }
+
+*{
+    font-family:"Nunito sans";
+}
+.title{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h2{
+    padding-left: 14px;
+}
+
+
+.textlist{
+    display: inline-block;
+    padding-left:14px;
+    padding-right:20px;
+    width:100%;
+    margin:0 auto;
+    
+    width:400px;
+}
+
+section{
+    border: 1.5px solid gray;
+    margin-top: 10px;
+}
+
+#coolblue{
+    color: white;
+    background-color: #2d5dcc;
+    width:300px;
+    height:80px;
+    text-align:center;
+    line-height: 25px;
+    padding-top: 10px;
+    font-weight: lighter;
+    margin-top:10px;
+}
+#pink{
+    color:black;
+    background-color:#d957d9;
+    width:300px;
+    height:80px;
+    text-align:center;
+    line-height: 25px;
+    padding-top: 10px;
+    font-weight: lighter;
+    margin-top:10px;
+    margin-top:10px;
+}
+#mintgreen{
+    color:black;
+    background-color:#4fe0b0;
+    width:300px;
+    height:80px;
+    text-align:center;
+    line-height: 25px;
+    padding-top: 10px;
+    font-weight: lighter;
+    margin-top:10px;
+    margin-top:10px;
+}
+#beige{
+    color:black;
+    background-color:#efd9ca;
+    width:300px;
+    height:80px;
+    text-align:center;
+    line-height: 25px;
+    padding-top: 10px;
+    font-weight: lighter;
+    margin-top:10px;
+}
+
+#colors li{
+    display:inline-block;
+    margin:0 auto;
+}
+
+#sampleheading{
+    padding-left:14px;
+    font-size:26px;
+    font-weight:700;
+}
+
+#sampleheading2{
+    font-size: 18px;
+    font-weight:500;
+    font-family: cursive;
+}
+
+#sampleheading3{
+    padding-left:14px;
+    font-size:14px;
+    font-weight:400;
+    font-family: "Montserrat";
+}
